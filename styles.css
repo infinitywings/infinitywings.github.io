@@ -7,3 +7,15 @@
 @media print{body{background:#fff}.page{max-width:none;margin:0;padding:0;border:0;box-shadow:none}.navigation,.publication-toolbar,.skip-link,dialog{display:none!important}.publication[hidden],.publication-group[hidden]{display:block!important}.publication,.award{break-inside:avoid}a{color:#000}.portrait{width:110px;height:130px}body{font-size:11px}h2{font-size:17px}section{margin:15px 0}}
 
 .preprint-list{padding-left:22px;margin:7px 0}.preprint-list li{margin:0 0 11px}.preprint-list h3{font-size:14px;font-weight:600}.preprint-list p{font-size:13px;margin:3px 0;color:var(--muted)}.preprint-label{font-style:italic}
+
+/* Citation rows preserve the site's existing compact academic layout. */
+.publication-body>.authors{color:#465365;font-size:13px;line-height:1.45;margin:3px 0}
+.authors strong{font-weight:650;color:var(--ink)}
+.author-note{font-size:12px;color:var(--muted)}
+.publication-body>.paper-summary{margin:3px 0;color:#515e6d}
+.publication-note{font-size:12px;color:var(--muted);margin:0 0 10px}
+.paper-links{margin-top:3px}
+#news-title{color:#a12c2c}
+#about .research-list{margin:8px 0;padding-left:20px}
+#about .research-list li{margin:3px 0}
+@media(max-width:540px){.publication-body>.authors{font-size:13px}.author-note{font-size:11px}.publication-note{font-size:12px}}
