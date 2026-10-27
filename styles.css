@@ -19,3 +19,15 @@
 #about .research-list{margin:8px 0;padding-left:20px}
 #about .research-list li{margin:3px 0}
 @media(max-width:540px){.publication-body>.authors{font-size:13px}.author-note{font-size:11px}.publication-note{font-size:12px}}
+
+/* Compact bibliography: title and PDF, authors, venue and status. */
+#publications .publication{display:block;padding-left:20px;margin:0 0 18px}
+#publications .publication::before{content:"•";position:absolute;left:1px;top:0;font-size:16px;line-height:1.4;color:var(--ink)}
+#publications .publication-title{font-size:15px;line-height:1.45;font-weight:650}
+#publications .pdf-link{color:#b32929;font-size:14px;font-weight:650;white-space:nowrap;margin-left:7px}
+#publications .publication-body>.authors{font-size:14px;line-height:1.45;margin:2px 0;color:var(--ink)}
+#publications .publication-body>.publication-venue{font-size:14px;line-height:1.45;margin:1px 0 0;color:var(--ink)}
+#publications .publication-resources{font-size:12px;margin-left:5px}
+#publications .publication-resources a{white-space:nowrap;margin-right:5px}
+#publications .paper-status{font-size:12px}
+@media(max-width:540px){#publications .publication{padding-left:17px;margin-bottom:17px}#publications .publication-title{font-size:14px}#publications .pdf-link{font-size:13px}#publications .publication-body>.authors,#publications .publication-body>.publication-venue{font-size:13px}}
